@@ -47,11 +47,11 @@ Props are mostly the same as [Aplayer's options](https://github.com/DIYgod/APlay
 | Name | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
 | narrow | Boolean | false | narrow style |
-| autoplay | Boolean | false | autoplay song(s), not supported by mobile browsers |
+| autoplay | Boolean | false | autoplay song(s), not supported by mobile browsers（是否自动播放） |
 | showlrc | Number | 0 | show lrc, can be 0, 1, 2, see: [With lrc](https://github.com/DIYgod/APlayer#with-lrc) |
 | mutex | Boolean | false | pause other players when this player playing |
 | theme | String | '#b7daff' | theme color |
-| mode | String | 'circulation' | play mode, can be 'random' 'single 'circulation'(loop) or 'order'(no loop) |
+| mode | String | 'circulation' | play mode, can be 'random' 'single 'circulation'(loop) or 'order'(no loop)(渲染方式：circulation循环播放；order播放一次) |
 | preload | String | 'auto' | the way to load music, can be 'none' 'metadata' or 'auto' |
 | listmaxheight | String | none | max height of play list |
 | music| Object or Array | `required` | music info, see [Music info](https://github.com/SevenOutman/vue-aplayer#music-info) |
